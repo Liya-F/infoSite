@@ -1,8 +1,7 @@
 import React from 'react';
 
 const PartnersSection = () => {
-  const partnerLogos = ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbcFBbn_4usKUt9YwFgXCquhv0MhN2A0j8eA&usqp=CAU', 
-                        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlmZUT4_wDUcpk2RTJaDbH-BUe2fKs5gJ6rA&usqp=CAU', 
+  const partnerLogos = ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlmZUT4_wDUcpk2RTJaDbH-BUe2fKs5gJ6rA&usqp=CAU', 
                         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbcFBbn_4usKUt9YwFgXCquhv0MhN2A0j8eA&usqp=CAU', 
                         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlmZUT4_wDUcpk2RTJaDbH-BUe2fKs5gJ6rA&usqp=CAU'];
 
@@ -13,7 +12,7 @@ const PartnersSection = () => {
     PARTNERS
    </h2>
 
-   <div className="max-w-3xl mx-auto mt-8 flex space-x-8">
+   <div className="max-w-3xl mx-auto mt-8 flex justify-center space-x-8">
    {partnerLogos.map((logo, index) => (
      <div key={index} className="w-1/4">
        <img

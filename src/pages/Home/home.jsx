@@ -3,9 +3,16 @@ import Navbar from '../../components/ui/NavBar';
 import HeroSection from './heroSection';
 import WhatWeDo from './whatWeDo';
 import GetInvolved from './getInvolved';
-import SocialsFeed from './socialsFeed';
-import WhoWeAre from './whoWeAreSection';
-import Partners from './partners';
+//<<<<<<< master
+//import WhoWeAre from './whoWeAreSection'
+//import Partners from './partners'
+//import Footer from './footer';
+//import NewsAndMediaSection from './newsAndMedia';
+//=======
+//import SocialsFeed from './socialsFeed';
+//import WhoWeAre from './whoWeAreSection';
+//import Partners from './partners';
+//>>>>>>> master
 const Home = () => {
   return (
     <div>
@@ -16,7 +23,8 @@ const Home = () => {
       <SocialsFeed />
       <WhatWeDo />
       <Partners />
-      
+      <NewsAndMediaSection />
+      <Footer />
       
       
       
