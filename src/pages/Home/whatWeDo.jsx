@@ -3,7 +3,8 @@ import heroBg from '../../assets/heroBg.jpg';
 
 const WhatWeDo = () => {
   return (
-    <div className="container mx-auto border md:px-36 px-10">
+    
+    <div className="container mx-auto border md:px-36 px-10           md:max-w-6xl md:mx-20 w-auto md:mt-[50px] mt-[100px] ">
       <div className="flex flex-col items-center">
         <div className="md:flex items-center justify-around mb-4">
           <h1 className="text-2xl font-bold w-full md:w-1/2">What we do</h1>
