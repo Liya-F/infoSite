@@ -5,6 +5,7 @@ import WhatWeDo from './whatWeDo';
 import GetInvolved from './getInvolved';
 import WhoWeAre from './whoWeAreSection'
 import Partners from './partners'
+import Footer from './footer';
 const Home = () => {
   return (
     <div>
@@ -14,7 +15,7 @@ const Home = () => {
       <GetInvolved />
       <WhatWeDo />
       <Partners />
-      
+      <Footer />
       
       
       
