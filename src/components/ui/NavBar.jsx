@@ -1,31 +1,33 @@
-
 import React, { useState } from 'react';
+import Link from './Link'
 import { HiMenu, HiX} from 'react-icons/hi';
-import {FaEnvelope, FaFacebook, FaTwitter, FaLinkedinIn} from 'react-icons/fa';
+import {FaFacebook, FaTwitter, FaLinkedinIn} from 'react-icons/fa';
+import { IoMdCall, IoMdMail } from 'react-icons/io';
+
 
 const Socials = () => {
   return (
-    <div className="contact-info flex justify-between items-center px-20 p-1">
+    <div className="contact-info flex justify-between items-center md:px-20 px-10 p-1 bg-gray-200 text-primary">
       <div className=" flex items-center">
-        
+        <IoMdCall size={15} />
+        <span className=' text-xs ml-1 mr-3 text-gray-600'>+0114123456</span>
+        <IoMdMail size={15} />
+        <span className=' text-xs ml-1 text-gray-600'>example@gmail.com</span>
       </div>
       <div className="social-icons flex space-x-5 ">
       <a href="https://www.facebook.com">
-        <FaFacebook />
+        <FaFacebook size={15} />
       </a>
       <a href="https://www.twitter.com">
-        <FaTwitter />
+        <FaTwitter size={15}/>
       </a>
       <a href="https://www.linkedin.com">
-        <FaLinkedinIn />
+        <FaLinkedinIn size={15} />
       </a>
-      <a href='#'><FaEnvelope /></a>
     </div>
     </div>
   );
 };
-
-
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,25 +39,13 @@ const Navbar = () => {
   return (
     <>
     <Socials />
-    <nav className="bg-gray-800">
+    <nav className=" bg-primary sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          {/* Logo and menu items for larger screens */}
-          <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-4">
-              <a href="/" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                Home
-              </a>
-              <a href="/about" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                About Us
-              </a>
-              <a href="/contact" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                Contact Us
-              </a>
-            </div>
+        <div className="flex items-center justify-between h-14 md:px-20 px-5">
+          <div className="flex items-center">
+            <span className="text-white text-lg font-bold">Logo</span>
           </div>
 
-          {/* Toggle button for smaller screens */}
           <div className="-mr-2 flex md:hidden">
             <button
               onClick={toggleNavbar}
@@ -67,13 +57,22 @@ const Navbar = () => {
               {isOpen ? <HiX className="h-6 w-6" /> : <HiMenu className="h-6 w-6" />}
             </button>
           </div>
+
+          <div className="hidden md:block">
+            <div className="ml-4 flex items-center space-x-4">
+            <Link to="/" text="Home"/>
+            <Link to="/ourwork" text="Our Work"/>
+            <Link to="/about" text="About"/>
+            <Link to="/contact" text="Contact"/>
+            <Link to="/donate" text="Donate"/>
+            </div>
+          </div>
         </div>
       </div>
 
-      {/* Mobile menu items */}
       <div className={`${isOpen ? 'block' : 'hidden'} md:hidden`} id="mobile-menu">
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-          <a href="/" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+        <a href="/" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
             Home
           </a>
           <a href="/about" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
