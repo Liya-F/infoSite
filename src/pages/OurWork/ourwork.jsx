@@ -5,7 +5,7 @@ const Ourwork = () => {
   return (
     <>
     <Navbar />
-    <PagesHero title="About Us" />
+    <PagesHero title="Our Works" />
     </>
 
   )
