@@ -3,12 +3,12 @@ import heroBg from '../../assets/heroBg.jpg';
 import Button from '../../components/ui/Button';
 const OurworkSection = () => {
   const images = [
-    { src: heroBg, text: 'ELDERLY SUPPORT' },
-    { src: heroBg, text: 'EDUCATION' },
-    { src: heroBg, text: 'MONTHLY GROCERIES' },
-    { src: heroBg, text: 'SUPPORT FAMILY BUSINESS' },
-    { src: heroBg, text: 'HELP THE YOUTH' },
-    { src: heroBg, text: 'DISASTER RELIEF' },
+    { src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeMdGTatrbgcrG26h0FVdUfzuqZoUCuLfT2A&usqp=CAU", text: 'ELDERLY SUPPORT' },
+    { src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8rPmx_j6x97Lda1zFI-Oaejs774p1pK77fA&usqp=CAU", text: 'EDUCATION' },
+    { src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZYNMRfE_2lFdXUfTSl7akTgOd97XpuRIvqQ&usqp=CAU", text: 'MONTHLY GROCERIES' },
+    { src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrlxmrOyltf8AHtTRZ_yuJnPu26dSOcQ_IXQ&usqp=CAU", text: 'SUPPORT FAMILY BUSINESS' },
+    { src: "https://miro.medium.com/v2/resize:fit:1400/0*4NH_KclNnZnf677E", text: 'HELP THE YOUTH' },
+    { src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqnFbGkNZrcDPq7H31iKE4I8Oq_16L4vS51A&usqp=CAU", text: 'DISASTER RELIEF' },
   ];
 
   const firstRowImages = images.slice(0, 3);
