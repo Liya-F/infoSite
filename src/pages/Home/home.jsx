@@ -5,7 +5,7 @@ import WhatWeDo from './whatWeDo';
 import GetInvolved from './getInvolved';
 import WhoWeAre from './whoWeAreSection'
 import Partners from './partners'
-import Footer from './footer';
+import Footer from '../../components/ui/footer';
 import NewsAndMediaSection from './newsAndMedia';
 import SocialsFeed from './socialsFeed';
 

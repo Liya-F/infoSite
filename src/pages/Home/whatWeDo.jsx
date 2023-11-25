@@ -7,7 +7,7 @@ const WhatWeDo = () => {
     <div className="container mx-auto md:px-36 px-10 md:max-w-6xl md:mx-20 w-auto md:mt-[50px] mt-[100px] ">
       <div className="flex flex-col items-center">
         <div className="md:flex items-center justify-around mb-4">
-          <h1 className="text-2xl font-bold w-full md:w-1/2">What we do</h1>
+          <h1 className="text-4xl font-bold w-full text-primary md:text-center md:w-1/4">What we do</h1>
           <p className="text-gray-700 w-full md:w-1/2">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laudantium iure facere corporis sequi
             illo, quae necessitatibus quas qui quasi accusamus excepturi, distinctio id quos quis quisquam ratione eos

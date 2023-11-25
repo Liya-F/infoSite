@@ -8,17 +8,17 @@ const PartnersSection = () => {
   return (
 
     <div className="container md:max-w-6xl md:mx-20 mx-10 w-auto md:mt-[50px] mt-[100px] ">
-    <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary mb-4 text-center">
-    PARTNERS
+    <h2 className="text-4xl md:text-4xl lg:text-4xl font-bold text-primary mb-4 text-center">
+    Partners
    </h2>
 
    <div className="max-w-3xl mx-auto mt-8 flex justify-center space-x-8">
    {partnerLogos.map((logo, index) => (
-     <div key={index} className="w-1/4">
+     <div key={index} className="w-1/4 p-12">
        <img
          src={logo}
          alt={`Partner ${index + 1}`}
-         className="w-full h-auto border border-gray-300 rounded"
+         className="w-full h-auto rounded"
        />
      </div>
    ))}
