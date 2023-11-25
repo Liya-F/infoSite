@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebook, FaLinkedin } from 'react-icons/fa';
+import { FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import heroBg from '../../assets/heroBg.jpg'
 
 const BoardMembers = () => {
@@ -86,6 +86,16 @@ const BoardMembers = () => {
                   className="text-blue-500 hover:text-blue-700"
                 >
                   <FaLinkedin />
+                </a>
+              </li>
+              <li>
+                <a
+                  href={member.twitterUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-500 hover:text-blue-700"
+                >
+                  <FaTwitter />
                 </a>
               </li>
             </ul>

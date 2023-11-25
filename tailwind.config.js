@@ -7,9 +7,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#1d204d", // Custom primary color
+        primary: "#002349", // Custom primary color
         secondary: "#ffde00", // Custom secondary color
+        lightpink: "#ffe9d4",
+        lightblue: "#effafc"
       },
+      fontFamily:{
+        Poppins: ["Poppins"],
+        Montserrat: ["Montserrat"]
+
+      }
     },
   },
   plugins: [],

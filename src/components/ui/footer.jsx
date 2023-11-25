@@ -60,7 +60,7 @@ const Footer = () => {
         </div>
 
         <div>
-        <button className="bg-secondary mt-5 ml-4 text-white px-8 py-2 rounded-md  focus:outline-none focus:ring focus:border-primary">
+        <button className="bg-secondary mt-5 ml-4 text-primary px-8 py-2 rounded-md  focus:outline-none focus:ring focus:border-primary">
         DONATE
       </button>
         <div className=" mt-20 social-icons flex space-x-5 ">

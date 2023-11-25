@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Title from '../../components/ui/Title';
 const NewsAndMediaSection = () => {
   const newsItems = [
     {
@@ -27,7 +27,7 @@ const NewsAndMediaSection = () => {
 
   return (
     <div className="max-w-6xl mx-auto mt-8">
-      <h2 className="text-4xl font-bold text-primary mb-6">News and Media</h2>
+      <Title text="News and Media" />
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {newsItems.map((item) => (

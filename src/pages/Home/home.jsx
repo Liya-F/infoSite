@@ -11,20 +11,16 @@ import SocialsFeed from './socialsFeed';
 
 const Home = () => {
   return (
-    <div>
+    <div className=' font-Montserrat'>
       <Navbar />
       <HeroSection />
       <WhoWeAre />
+      <WhatWeDo />
       <GetInvolved />
       <SocialsFeed />
-      <WhatWeDo />
       <Partners />
       <NewsAndMediaSection />
       <Footer />
-      
-      
-      
-    
     </div>
   )
 }

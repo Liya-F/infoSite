@@ -7,7 +7,7 @@ import { IoMdCall, IoMdMail } from 'react-icons/io';
 
 const Socials = () => {
   return (
-    <div className="contact-info flex justify-between items-center md:px-20 px-10 p-1 bg-gray-200 text-primary">
+    <div className="contact-info flex justify-between items-center md:px-20 px-10 p-1 bg-secondary text-primary">
       <div className=" flex items-center">
         <IoMdCall size={15} />
         <span className=' text-xs ml-1 mr-3 text-gray-600'>+0114123456</span>

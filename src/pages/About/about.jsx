@@ -6,12 +6,12 @@ import Footer from '../../components/ui/footer';
 
 const Ourwork = () => {
   return (
-    <>
+    <div className=' font-Montserrat'>
     <Navbar />
     <PagesHero title="About Us" />
     <BoardMembers />
     <Footer />
-    </>
+    </div>
 
   )
 }

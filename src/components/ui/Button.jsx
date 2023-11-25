@@ -5,7 +5,7 @@ const Button = ({ text, type }) => {
 
   return (
     <button
-      className={` w-30 px-6 py-3 ${isFilled ? 'bg-secondary text-primary' : 'border border-secondary text-secondary'} rounded-2xl hover:scale-105`}
+      className={` w-32 px-6 py-3 ${isFilled ? 'bg-primary text-gray-100' : 'border border-secondary text-secondary'} rounded-xl hover:scale-105`}
     >
       {text}
     </button>

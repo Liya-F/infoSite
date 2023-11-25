@@ -5,13 +5,13 @@ import OurworkSection from './ourworkSection';
 import Footer from '../../components/ui/footer';
 const Ourwork = () => {
   return (
-    <>
+    <div className=' font-Montserrat'>
     <Navbar />
     <PagesHero title="Our Works" />
     <OurworkSection />
     <Footer />
 
-    </>
+    </div>
 
   )
 }

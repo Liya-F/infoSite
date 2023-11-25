@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaDonate, FaHandHoldingHeart, FaUserFriends } from 'react-icons/fa';
-
+import Title from '../../components/ui/Title';
 const data = [
   {
     icon: <FaDonate size={38} />,
@@ -23,10 +23,8 @@ const data = [
 ];
 const GetInvolved = () => {
   return (
-    <>
-    <h2 className="text-4xl md:text-5xl lg:text-4xl font-bold text-primary mb-8 text-center mt-8 mx-20 md:px-36">
-         Get Involved
-      </h2>    
+    <div className=' pb-10'>
+    <Title text="Get Involved" /> 
     <div className="border shadow-2xl p-10 md:w-2/3 md:m-auto mx-5">
       <div className="md:flex md:justify-between">
         {data.map((item, index) => (
@@ -43,7 +41,7 @@ const GetInvolved = () => {
         ))}
       </div>
     </div>
-    </>
+    </div>
 
   )
 }

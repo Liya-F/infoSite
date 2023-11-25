@@ -1,18 +1,16 @@
 import React from 'react';
-
+import Title from '../../components/ui/Title';
 const PartnersSection = () => {
   const partnerLogos = ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlmZUT4_wDUcpk2RTJaDbH-BUe2fKs5gJ6rA&usqp=CAU', 
                         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbcFBbn_4usKUt9YwFgXCquhv0MhN2A0j8eA&usqp=CAU', 
                         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlmZUT4_wDUcpk2RTJaDbH-BUe2fKs5gJ6rA&usqp=CAU'];
 
   return (
-
+    <div className=' bg-lightblue border'>
     <div className="container md:max-w-6xl md:mx-20 mx-10 w-auto md:mt-[50px] mt-[100px] ">
-    <h2 className="text-4xl md:text-4xl lg:text-4xl font-bold text-primary mb-4 text-center">
-    Partners
-   </h2>
+    <Title text="Partners"/>
 
-   <div className="max-w-3xl mx-auto mt-8 flex justify-center space-x-8">
+   <div className="max-w-3xl mx-auto mt-8 flex justify-center">
    {partnerLogos.map((logo, index) => (
      <div key={index} className="w-1/4 p-12">
        <img
@@ -24,6 +22,7 @@ const PartnersSection = () => {
    ))}
  </div>
 
+    </div>
     </div>
   );
 };

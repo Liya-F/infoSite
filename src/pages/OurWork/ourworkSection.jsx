@@ -1,6 +1,6 @@
 import React from 'react';
 import heroBg from '../../assets/heroBg.jpg';
-
+import Button from '../../components/ui/Button';
 const OurworkSection = () => {
   const images = [
     { src: heroBg, text: 'ELDERLY SUPPORT' },
@@ -17,15 +17,9 @@ const OurworkSection = () => {
   return (
     <div className="container mx-auto px-10 py-8">
       <div className="flex justify-center space-x-8">
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-          Past
-        </button>
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-          Current
-        </button>
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-          Future
-        </button>
+      <a href=""><Button text="Past" type="filled" /></a>
+      <a href=""><Button text="Current" type="filled" /></a>
+      <a href=""><Button text="Future" type="filled" /></a>
       </div>
 
       <div className="mt-8 md:grid grid-cols-3 gap-5">
@@ -51,7 +45,7 @@ const OurworkSection = () => {
               src={image.src}
               alt={`Image ${index + 4}`}
             />
-            <div className="absolute inset-0 flex items-center justify-center text-white font-bold">
+            <div className="absolute inset-0 flex items-center justify-center text-white font-bold text-xl">
               {image.text}
             </div>
           </div>
@@ -59,12 +53,12 @@ const OurworkSection = () => {
       </div>
       <div className="flex justify-center">
         <div className="md:w-2/3 p-4 m-5">
-          <p className="text-lg font-normal">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam
+          <p className="text-lg font-semibold">
+            " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam
             non vel hic sit quod error delectus itaque quaerat soluta labore
             voluptatem, dicta laboriosam voluptatibus iste exercitationem sint
             illo at odio tenetur quisquam corporis neque nulla! Natus itaque
-            sequi iure earum.
+            sequi iure earum. ""
           </p>
         </div>
       </div>
