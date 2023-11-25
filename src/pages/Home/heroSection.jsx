@@ -1,15 +1,19 @@
 import React, { useState, useEffect } from 'react';
-import heroBg from '../../assets/heroBg.jpg';
+import heroBg1 from '../../assets/heroBg.jpg';
+import heroBg2 from '../../assets/africanKidEating.jpeg';
+import heroBg3 from '../../assets/africanChild.jpeg';
 import Button from '../../components/ui/Button.jsx';
 
 const HeroSection = () => {
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
 
-  const images = [
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxjd28qi9yZ3yyQYxjMpO3zHZ86m4mbYMBcj84sl0kCoaSMsf7IT9IywTz2k7xXg_5rns&usqp=CAU',
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvRphrevO7WWVykIWnjxsGpMqrpK_1PtfUvr7LJp6x4NTRfgBY3b2Cz7c-szy4ZkO2Ajw&usqp=CAU',
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgtrPiV63OEbfoHXYbXKRWHQd7V2fDnwFew1lopb01o8JdzAEjQST_u4GkxppzvioVRwQ&usqp=CAU'
-  ];
+  // const images = [
+  //   'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxjd28qi9yZ3yyQYxjMpO3zHZ86m4mbYMBcj84sl0kCoaSMsf7IT9IywTz2k7xXg_5rns&usqp=CAU',
+  //   'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvRphrevO7WWVykIWnjxsGpMqrpK_1PtfUvr7LJp6x4NTRfgBY3b2Cz7c-szy4ZkO2Ajw&usqp=CAU',
+  //   'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgtrPiV63OEbfoHXYbXKRWHQd7V2fDnwFew1lopb01o8JdzAEjQST_u4GkxppzvioVRwQ&usqp=CAU'
+  // ];
+
+  const images= [heroBg1, heroBg2, heroBg3];
 
   useEffect(() => {
     const interval = setInterval(() => {
