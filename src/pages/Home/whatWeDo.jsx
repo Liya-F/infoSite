@@ -33,6 +33,9 @@ const WhatWeDo = () => {
               <img src={item.imageSrc} alt={item.alt} className="object-cover w-full h-36 rounded-t-lg" />
               <p className="text-center py-2 bg-gray-200 text-primary font-bold">{item.description}</p>
               <p className='my-3 leading-7'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At et ut quo, necessitatibus tenetur excepturi?</p>
+              <a href="#" className="text-primary hover:underline">
+              Read More...
+            </a>
             </div>
           ))}
         </div>
