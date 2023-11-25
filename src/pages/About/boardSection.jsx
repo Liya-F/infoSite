@@ -6,49 +6,49 @@ const BoardMembers = () => {
   const members = [
     {
       id: 1,
-      photo: heroBg,
-      fullName: 'John Doe',
+      photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCcJKlkD0jgxu_zvB-2QiuD7V3YAq75r9NtA&usqp=CAU",
+      fullName: 'Oliver Davis',
       position: 'Chairperson',
       facebookUrl: 'https://www.facebook.com/johndoe',
       linkedinUrl: 'https://www.linkedin.com/in/johndoe',
     },
     {
       id: 2,
-      photo: heroBg,
-      fullName: 'Jane Smith',
-      position: 'Vice Chair',
+      photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7yCMBpekD57G4-5FTZcs2CiZUbspx-hA6mQ&usqp=CAU",
+      fullName: 'Samuel Carter',
+      position: 'Treasurer, Volunteer Coordinator',
       facebookUrl: 'https://www.facebook.com/janesmith',
       linkedinUrl: 'https://www.linkedin.com/in/janesmith',
     },
     {
         id: 3,
-        photo: heroBg,
-        fullName: 'Jane Smith',
-        position: 'Vice Chair',
+        photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcJtY0pB9Q5zoHI57bmesfl4U7vC8rqtyDlQ&usqp=CAU",
+        fullName: 'Emily Rodriguez',
+        position: 'Vice Chair, Program Manager',
         facebookUrl: 'https://www.facebook.com/janesmith',
         linkedinUrl: 'https://www.linkedin.com/in/janesmith',
       },
       {
         id: 4,
-        photo: heroBg,
-        fullName: 'Jane Smith',
-        position: 'Vice Chair',
+        photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgeTMv6b3rGnb7YCoPTpjhZH22wagg0sLzqw&usqp=CAU",
+        fullName: 'Oliver Davis',
+        position: 'Chief Financial Officer',
         facebookUrl: 'https://www.facebook.com/janesmith',
         linkedinUrl: 'https://www.linkedin.com/in/janesmith',
       },
       {
         id: 5,
-        photo: heroBg,
-        fullName: 'Jane Smith',
-        position: 'Vice Chair',
+        photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVhcrz2BZ4hfvYj1XJixNjlVm30sB-3M3tFQ&usqp=CAU",
+        fullName: 'Sophia Patel',
+        position: 'Director of Community Outreach',
         facebookUrl: 'https://www.facebook.com/janesmith',
         linkedinUrl: 'https://www.linkedin.com/in/janesmith',
       },
       {
         id: 6,
-        photo: heroBg,
-        fullName: 'Jane Smith',
-        position: 'Vice Chair',
+        photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT61B6gKPKZqDLR7NJY0EO7I_Xz_l665Nja4OALBzRGHbPWbyfArZrRuU2hNWxfn0Lq-nU&usqp=CAU",
+        fullName: 'Ethan Foster',
+        position: 'Communications Specialist, Secretary',
         facebookUrl: 'https://www.facebook.com/janesmith',
         linkedinUrl: 'https://www.linkedin.com/in/janesmith',
       },
@@ -57,6 +57,9 @@ const BoardMembers = () => {
 
   return (
     <div className="container mx-auto px-32 py-8">
+    <h2 className="text-4xl md:text-4xl lg:text-4xl font-bold text-primary mb-12 text-center">
+    Board Members
+   </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
         {members.map((member) => (
           <div key={member.id} className="text-center">
