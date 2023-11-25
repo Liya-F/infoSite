@@ -3,8 +3,9 @@ import Navbar from '../../components/ui/NavBar';
 import HeroSection from './heroSection';
 import WhatWeDo from './whatWeDo';
 import GetInvolved from './getInvolved';
-import WhoWeAre from './whoWeAreSection'
-import Partners from './partners'
+import SocialsFeed from './socialsFeed';
+import WhoWeAre from './whoWeAreSection';
+import Partners from './partners';
 const Home = () => {
   return (
     <div>
@@ -12,6 +13,7 @@ const Home = () => {
       <HeroSection />
       <WhoWeAre />
       <GetInvolved />
+      <SocialsFeed />
       <WhatWeDo />
       <Partners />
       
