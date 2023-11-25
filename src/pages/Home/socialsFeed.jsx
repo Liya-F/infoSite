@@ -1,8 +1,17 @@
 import React from 'react'
 
+
 const SocialsFeed = () => {
   return (
     <div className='bg-primary'>
+
+    <div className="relative text-center">
+        <h2 className="text-4xl md:text-3xl lg:text-4xl font-bold text-white mb-5 inline-block mt-8">
+          Socials
+        </h2>
+        <span className="block w-20 h-1 bg-white mx-auto mt-2 mb-8"></span>
+      </div>
+
     <div className=" flex justify-center mx-20 p-10 ">
       <div className="w-full md:w-1/3 p-4">
         
