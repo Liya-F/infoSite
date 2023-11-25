@@ -63,7 +63,7 @@ const Navbar = () => {
             <Link to="/" text="Home"/>
             <Link to="/ourwork" text="Our Work"/>
             <Link to="/about" text="About"/>
-            <Link to="/contact" text="Contact"/>
+            <Link to="/howtoHelp" text="How to Help"/>
             <Link to="/donate" text="Donate"/>
             </div>
           </div>
@@ -75,11 +75,17 @@ const Navbar = () => {
         <a href="/" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
             Home
           </a>
-          <a href="/about" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
-            About Us
+          <a href="/ourwork" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+            Our Work
           </a>
-          <a href="/contact" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
-            Contact Us
+          <a href="/about" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+            About
+          </a>
+          <a href="/howtoHelp" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+            How to Help
+          </a>
+          <a href="/donate" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+            Donate
           </a>
         </div>
       </div>
