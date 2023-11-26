@@ -7,7 +7,7 @@ import { IoMdCall, IoMdMail } from 'react-icons/io';
 
 const Socials = () => {
   return (
-    <div className="contact-info flex justify-between items-center md:px-20 px-10 p-1 bg-secondary text-primary">
+    <div className="contact-info flex justify-between items-center md:px-20 px-1 p-1 bg-secondary text-primary">
       <div className=" flex items-center">
         <IoMdCall size={15} />
         <span className=' text-xs ml-1 mr-3 text-gray-600'>+0114123456</span>
@@ -63,8 +63,8 @@ const Navbar = () => {
             <Link to="/" text="Home"/>
             <Link to="/ourwork" text="Our Work"/>
             <Link to="/about" text="About"/>
-            <Link to="/howtoHelp" text="How to Help"/>
-            <Link to="/donate" text="Donate"/>
+            <Link to="#" text="How to Help"/>
+            <Link to="#" text="Donate"/>
             </div>
           </div>
         </div>
@@ -81,10 +81,10 @@ const Navbar = () => {
           <a href="/about" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
             About
           </a>
-          <a href="/howtoHelp" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+          <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
             How to Help
           </a>
-          <a href="/donate" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+          <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
             Donate
           </a>
         </div>

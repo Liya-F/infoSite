@@ -23,7 +23,7 @@ const data = [
 ];
 const GetInvolved = () => {
   return (
-    <div className=' pb-10'>
+    <div className=' pb-10 md:mt-10 mt-20'>
     <Title text="Get Involved" /> 
     <div className="border shadow-2xl p-10 md:w-2/3 md:m-auto mx-5">
       <div className="md:flex md:justify-between">

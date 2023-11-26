@@ -10,9 +10,9 @@ const PartnersSection = () => {
     <div className="container md:max-w-6xl md:mx-20 mx-10 w-auto md:mt-[50px] mt-[100px] ">
     <Title text="Partners"/>
 
-   <div className="max-w-3xl mx-auto mt-8 flex justify-center">
+   <div className="max-w-3xl mx-auto md:mt-8 flex justify-center space-x-5 md:space-x-1 mt-16 mb-10 md:mb-3">
    {partnerLogos.map((logo, index) => (
-     <div key={index} className="w-1/4 p-12">
+     <div key={index} className="w-1/4 md:p-12">
        <img
          src={logo}
          alt={`Partner ${index + 1}`}

@@ -29,29 +29,29 @@ const Footer = () => {
         {/* Quick Links */}
         <div className='flex'>
           <div className="mt-2 flex flex-col justify-center">
-            <a href="#" className="hover:text-gray-400 mx-4">
+            <a href="/" className="hover:text-gray-400 mx-4">
               Home
             </a>
-            <a href="#" className="hover:text-gray-400 mx-4">
+            <a href="/about" className="hover:text-gray-400 mx-4">
               About Us
             </a>
-            <a href="#" className="hover:text-gray-400 mx-4">
-              Services
+            <a href="/ourwork" className="hover:text-gray-400 mx-4">
+              Our work
             </a>
             <a href="#" className="hover:text-gray-400 mx-4">
-              Contact
+              How to help?
             </a>
           </div>
 
           <div className="mt-2 flex flex-col justify-center">
             <a href="#" className="hover:text-gray-400 mx-4">
-              How to Help?
+              Donate
             </a>
             <a href="#" className="hover:text-gray-400 mx-4">
-              Services
+              Contact
             </a>
             <a href="#" className="hover:text-gray-400 mx-4">
-              COntact
+              About Us
             </a>
             <a href="#" className="hover:text-gray-400 mx-4">
               Home

@@ -5,7 +5,7 @@ import Button from './Button';
 const PagesHero = ({ title }) => {
   return (
     <div
-      className="relative h-[60vh]"
+      className="relative h-[40vh]"
       style={{
         backgroundImage: `url(${heroBg})`,
         backgroundSize: 'cover',

@@ -16,10 +16,10 @@ const OurworkSection = () => {
 
   return (
     <div className="container mx-auto px-10 py-8">
-      <div className="flex justify-center space-x-8">
-      <a href=""><Button text="Past" type="filled" /></a>
-      <a href=""><Button text="Current" type="filled" /></a>
-      <a href=""><Button text="Future" type="filled" /></a>
+      <div className="flex justify-center md:space-x-8 space-x-1 p-5">
+      <a href="/ourwork"><Button text="Past" type="filled" /></a>
+      <a href="/ourwork"><Button text="Current" type="filled" /></a>
+      <a href="/ourwork"><Button text="Future" type="filled" /></a>
       </div>
 
       <div className="mt-8 md:grid grid-cols-3 gap-5">
@@ -52,13 +52,13 @@ const OurworkSection = () => {
         ))}
       </div>
       <div className="flex justify-center">
-        <div className="md:w-2/3 p-4 m-5">
+        <div className="md:w-2/3 w-full md:p-4 md:m-5 my-10">
           <p className="text-lg font-semibold">
             " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam
             non vel hic sit quod error delectus itaque quaerat soluta labore
             voluptatem, dicta laboriosam voluptatibus iste exercitationem sint
             illo at odio tenetur quisquam corporis neque nulla! Natus itaque
-            sequi iure earum. ""
+            sequi iure earum. "
           </p>
         </div>
       </div>

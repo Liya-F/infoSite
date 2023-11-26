@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa';
-import heroBg from '../../assets/heroBg.jpg'
+import Title from '../../components/ui/Title';
 
 const BoardMembers = () => {
   const members = [
@@ -57,9 +57,7 @@ const BoardMembers = () => {
 
   return (
     <div className="container mx-auto px-32 py-8">
-    <h2 className="text-4xl md:text-4xl lg:text-4xl font-bold text-primary mb-12 text-center">
-    Board Members
-   </h2>
+    <Title text="Board Members" />
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
         {members.map((member) => (
           <div key={member.id} className="text-center">
