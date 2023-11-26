@@ -29,7 +29,7 @@ const GetInvolved = () => {
       <div className="md:flex md:justify-between">
         {data.map((item, index) => (
           <div key={index} className="flex-1 p-5 border-b-2 md:border-0">
-            <div className=" items-center mb-2">
+            <div className=" items-center mb-2 flex space-x-2 md:block md:space-x-0">
               <div className="mr-2 m-5 text-yellow-500">{item.icon}</div>
               <h3 className=' font-bold text-lg'>{item.title}</h3>
             </div>

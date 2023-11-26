@@ -42,7 +42,7 @@ const HeroSection = () => {
   };
 
   return (
-    <div className="relative h-[100vh] pt-10" style={heroSectionStyle}>
+    <div className="relative h-[90vh] pt-10" style={heroSectionStyle}>
       <div className="absolute inset-0 bg-gradient-to-r from-primary to-transparent"></div>
       <div className="relative flex items-center justify-start min-h-screen">
         <div className="container  md:mx-20 mx-10 w-auto md:mt-[-100px] mt-[-150px] ">

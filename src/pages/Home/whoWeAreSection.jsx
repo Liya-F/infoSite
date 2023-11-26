@@ -4,16 +4,16 @@ import Title from '../../components/ui/Title';
 const WhoWeAre = () => {
   return (
     <div className='bg-gray-100 border pb-10'>
-    <div className="container md:max-w-6xl md:mx-20 mx-10 w-auto md:mt-[50px] mt-[100px]">
+    <div className="container md:max-w-6xl md:mx-20 mx-5 w-auto md:mt-[50px] mt-[100px]">
       <Title text="Who We Are" />
 
-      <p className="md:m-5 leading-8 md:text-lg">
+      <p className="md:m-5 leading-8 md:text-lg text-center">
         Welcome to NGO Name, where passion meets purpose to create positive change in the world. Founded in 2001, our
         non-profit organization is driven by a collective commitment to making a meaningful impact on the lives of those
         in need.
       </p>
 
-      <p className="md:m-5 leading-8 md:text-lg">
+      <p className="md:m-5 leading-8 md:text-lg text-center">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laudantium iure facere corporis sequi illo,
         quae necessitatibus quas qui quasi accusamus excepturi, distinctio id quos quis quisquam ratione eos voluptate
         vitae labore error consequuntur nostrum! At nam voluptates laborum? Nostrum! accusamus excepturi, distinctio id
