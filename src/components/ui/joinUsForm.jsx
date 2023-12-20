@@ -18,22 +18,22 @@ const JoinUsForm = () => {
             target="_blank"
           >
             <div id="mc_embed_signup_scroll">
-              <h2>Subscribe</h2>
+              <h2 className=' text-primary'>Subscribe</h2>
               <div className="indicates-required">
-                <span className="asterisk">*</span> indicates required
+                <span className="asterisk text-sm">*</span><span className=' text-black text-sm'>indicates required</span> 
               </div>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div className="mc-field-group col-span-1">
-                  <label htmlFor="mce-EMAIL">Email Address <span className="asterisk">*</span></label>
-                  <input type="email" name="EMAIL" className="required email w-full px-3 py-2 border border-gray-300 rounded-md" id="mce-EMAIL" required="" />
+                  <label htmlFor="mce-EMAIL" className=' text-black'>Email Address <span className="asterisk">*</span></label>
+                  <input type="email" name="EMAIL" id="mce-EMAIL" required="" className="required email w-full px-3 py-2 border border-gray-300 rounded-md text-black outline-none h-12"  />
                 </div>
                 <div className="mc-field-group col-span-1">
-                  <label htmlFor="mce-FNAME">First Name </label>
-                  <input type="text" name="FNAME" className="text w-full px-3 py-2 border border-gray-300 rounded-md" id="mce-FNAME" />
+                  <label htmlFor="mce-FNAME" className=' text-black'>First Name </label>
+                  <input type="text" name="FNAME" id="mce-FNAME" className="text w-full px-3 py-2 border border-gray-300 rounded-md text-black outline-none" />
                 </div>
                 <div className="mc-field-group col-span-1">
-                  <label htmlFor="mce-LNAME">Last Name </label>
-                  <input type="text" name="LNAME" className="text w-full px-3 py-2 border border-gray-300 rounded-md" id="mce-LNAME" />
+                  <label htmlFor="mce-LNAME" className=' text-black'>Last Name </label>
+                  <input type="text" name="LNAME" id="mce-LNAME" className="text w-full px-3 py-2 border border-gray-300 rounded-md text-black outline-none" />
                 </div>
               </div>
               <div id="mce-responses" className="clear foot">
